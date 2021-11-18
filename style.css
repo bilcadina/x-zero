@@ -1,0 +1,27 @@
+#canvas {
+  width: 216px;
+  height: 216px;
+  /* border: 6px solid black; */
+  background: gray;
+}
+
+.cell {
+  background: #d6d9ce;
+  text-align: center;
+  font-size: xx-large;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover {
+  background: #989c8e;
+}
+
+.row {
+  display: flex;
+}
